@@ -11,6 +11,8 @@ https://www.loom.com/share/4ccbb9882c7c439ca5bb6fb0d0da2579
 I used a Svg and I created multiple swatches that change the color of the elements of those graphics. For this I used React and I used the following package.
 
 I can gladly say that I achieved the desired result. __This is the result__
+<br/>
+<br/>
 ![](images/Screenshot.png)
 <br/>
 <br/>
