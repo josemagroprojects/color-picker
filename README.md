@@ -10,7 +10,8 @@ https://www.loom.com/share/4ccbb9882c7c439ca5bb6fb0d0da2579
 ### What I achieved
 I used a Svg and I created multiple swatches that change the color of the elements of those graphics. For this I used React and I used the following package.
 
-I can gladly say that I achieved the desired result.
+I can gladly say that I achieved the desired result. __This is the result__
+![](images/Screenshot.png)
 <br/>
 <br/>
 ### What problems I solved
