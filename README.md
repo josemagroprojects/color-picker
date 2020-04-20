@@ -1,6 +1,7 @@
 # Color Picker
 <br/>
-###  What I wished as a result
+
+### What I wished as a result
 I wanted to create a solution to change the color of a certain image, like for example the Muzli solution I show in the video.
 
 https://www.loom.com/share/4ccbb9882c7c439ca5bb6fb0d0da2579
