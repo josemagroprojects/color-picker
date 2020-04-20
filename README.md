@@ -20,3 +20,6 @@ I can gladly say that I achieved the desired result. __This is the result__
 I can’t say that this solves a specific problem, even though this could be a solution for an application where the user can simulate the color of certain elements
 <br/>
 <br/>
+
+### By the way
+You can check the project online at [codesandbox](https://codesandbox.io/s/dry-surf-y1fsf?file=/src/components/ColorSwatch/ColorSwatch.scss:0-629)
