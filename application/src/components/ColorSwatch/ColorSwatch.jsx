@@ -1,48 +1,37 @@
 import React from "react";
-import { SketchPicker } from "react-color";
+import { TwitterPicker } from "react-color";
 import "./../ColorSwatch/ColorSwatch.scss";
 
-class ColorSwatch extends React.Component {
-  state = {
-    displayColorPicker: false,
-    color: {
-      r: "241",
-      g: "112",
-      b: "19",
-      a: "1",
-    },
-  };
-
-  handleClick = () => {
-    this.setState({ displayColorPicker: !this.state.displayColorPicker });
-  };
-
-  handleClose = () => {
-    this.setState({ displayColorPicker: false });
-  };
-
-  handleChange = (color) => {
-    this.setState({ color: color.rgb });
-  };
-
-  render() {
-    return (
-      <div>
-        <div onClick={this.handleClick}>
-          <div className="color-swatch" />
-        </div>
-        {this.state.displayColorPicker ? (
-          <div className="popover">
-            <div className="cover" onClick={this.handleClose} />
-            <SketchPicker
-              color={this.state.color}
-              onChange={this.handleChange}
-            />
-          </div>
-        ) : null}
+const ColorSwatch = (props) => {
+  return (
+    <div className="swatch-container">
+      <div onClick={props.picker}>
+        <div className="color-swatch" style={{ background: `${props.code}` }} />
       </div>
-    );
-  }
-}
+      {props.currentState ? (
+        <div className="popover">
+          <div className="cover" onClick={props.picker} />
+          <TwitterPicker
+            color={props.color}
+            onChange={props.change}
+            triangle="hide"
+            colors={[
+              "#edd2cb",
+              "#e5efc2",
+              "#a2d5ac",
+              "#38aea9",
+              "#f55a51",
+              "#543d52",
+              "#361d32",
+            ]}
+          />
+        </div>
+      ) : null}
+      <div className="color-name">
+        <p>{props.code.toUpperCase()}</p>
+      </div>
+    </div>
+  );
+};
 
 export default ColorSwatch;

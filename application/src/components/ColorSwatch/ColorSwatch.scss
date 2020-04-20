@@ -1,29 +1,42 @@
-.color-swatch {
-  margin-right: 40px;
-  height: 50px;
-  width: 50px;
-  background-color: orchid;
-  cursor: pointer;
-}
+.swatch-container {
+  display: inline-flex;
+  border: 0.7px solid #bfbcbb;
+  border-radius: 4px;
+  width: calc(50% - 8px - 1.4px - 12px);
+  margin: 6px;
+  padding: 4px;
+  .color-swatch {
+    height: 50px;
+    width: 50px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
 
-.button {
-  background-color: red;
-  height: 30px;
-  width: 30px;
-  margin-left: 50px;
-  border-radius: 100px;
-  cursor: pointer;
-}
+  .color-name {
+    width: 100%;
+    p {
+      text-align: center;
+    }
+  }
 
-.popover {
-  position: absolute;
-  z-index: 2;
-}
+  .button {
+    height: 30px;
+    width: 30px;
+    margin-left: 50px;
+    border-radius: 100px;
+    cursor: pointer;
+  }
 
-.cover {
-  position: fixed;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
+  .popover {
+    position: absolute;
+    z-index: 2;
+  }
+
+  .cover {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+  }
 }
