@@ -12,9 +12,11 @@ I used a Svg and I created multiple swatches that change the color of the elemen
 
 I can gladly say that I achieved the desired result. __This is the result__
 <br/>
+
 ![](images/Screenshot.png)
 <br/>
 <br/>
 ### What problems I solved
 I can’t say that this solves a specific problem, even though this could be a solution for an application where the user can simulate the color of certain elements
-
+<br/>
+<br/>
