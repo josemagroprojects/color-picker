@@ -21,5 +21,20 @@ I can’t say that this solves a specific problem, even though this could be a s
 <br/>
 <br/>
 
+### To install and run the project
+Clone the project and:
+<br/>
+For npm, insert:
+<br/>
+1. to install the dependencies `npm install`
+2. to run the project `npm start`
+<br/>
+<br/>
+For yarn, insert:
+<br/>
+1. to install the dependencies `yarn install`
+2. to run the project `yarn start`
+<br/>
+<br/>
 ### By the way
 You can check the project online at [codesandbox](https://codesandbox.io/s/dry-surf-y1fsf?file=/src/components/ColorSwatch/ColorSwatch.scss:0-629)
