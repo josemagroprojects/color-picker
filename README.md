@@ -22,15 +22,7 @@ I can’t say that this solves a specific problem, even though this could be a s
 <br/>
 
 ### To install and run the project
-Clone the project and:
-<br/>
-For npm, insert:
-<br/>
-1. to install the dependencies `npm install`
-2. to run the project `npm start`
-<br/>
-<br/>
-For yarn, insert:
+Clone the project and run:
 <br/>
 1. to install the dependencies `yarn install`
 2. to run the project `yarn start`
