@@ -28,5 +28,6 @@ Clone the project and run:
 2. to run the project `yarn start`
 <br/>
 <br/>
+
 ### By the way
 You can check the project online at [codesandbox](https://codesandbox.io/s/dry-surf-y1fsf?file=/src/components/ColorSwatch/ColorSwatch.scss:0-629)
