@@ -32,7 +32,8 @@ For npm, insert:
 <br/>
 For yarn, insert:
 <br/>
-1. to install the dependencies `yarn install`2. to run the project `yarn start`
+1. to install the dependencies `yarn install`
+2. to run the project `yarn start`
 <br/>
 <br/>
 ### By the way
