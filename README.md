@@ -26,12 +26,13 @@ Clone the project and:
 <br/>
 For npm, insert:
 <br/>
-1. to install the dependencies `npm install`<br/>2. to run the project `npm start`
+1. to install the dependencies `npm install`
+2. to run the project `npm start`
 <br/>
 <br/>
 For yarn, insert:
 <br/>
-1. to install the dependencies `yarn install`<br/>2. to run the project `yarn start`
+1. to install the dependencies `yarn install`2. to run the project `yarn start`
 <br/>
 <br/>
 ### By the way
